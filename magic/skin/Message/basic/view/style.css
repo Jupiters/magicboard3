@@ -1,0 +1,183 @@
+/*
+	전체적용
+*/
+body {
+	background:repeat-x left top url('./img/msg_bg.jpg');
+}
+#msg_body {
+	background-color:#f3f3f3;
+	float:left;
+	border:5px solid #624aea;
+	width:567px;
+}
+ul#msg_sub_menu {
+	list-style:none
+}
+ul#msg_sub_menu li {
+	float:left;
+	padding:5px 2px;
+}
+
+/*
+	사이드 메뉴
+ */
+ul#msg_menu {
+	margin-top:10px;
+	float:left;
+	width:100px;
+	list-style:none
+}
+ul#msg_menu li {
+	padding:5px 0 5px 20px
+}
+ul#msg_menu li.active {
+	background-color:#624aea
+}
+ul#msg_menu li:hover {
+	background-color:#6f5af7
+}
+ul#msg_menu li a {
+	text-decoration:none;
+	color:#333333
+}
+ul#msg_menu li.active a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#ffffff
+}
+ul#msg_menu li:hover a {
+	color:#ffffff
+}
+
+
+/*
+	쪽지 리스트
+*/
+table#msg_list {
+	border-top:1px solid #e4dfff;
+	border-bottom:1px solid #e4dfff;
+	border-collapse:collapse;
+	width:100%;
+	padding:0 0 5px 0
+}
+table#msg_list tr.blank td {
+	background-color:#fff;
+	height:12px;
+	border-bottom:none;
+}
+table#msg_list td {
+	border-bottom:1px solid #e0e0e0;
+	color:#999;
+	background-color:#fff;
+	padding:5px
+}
+table#msg_list td a {
+	color:#999;
+}
+table#msg_list td a span.subject {
+	color:#000;
+}
+table#msg_list tr.read td, 
+table#msg_list tr.read td a {
+	color:#999;
+	background-color:#eee
+}
+table#msg_list td.no_contents {
+	text-align:center;
+	padding:50px 0;
+	font-weight:normal;
+	background-color:#fff
+}
+
+
+
+div#msg_btns {
+	padding:5px
+}
+
+div#paging {
+	padding-top:5px;
+	text-align:center;
+	margin-bottom:10px
+}
+
+#msg_view_btns {
+	float:right;
+	font-weight:bold;
+	margin:5px 5px 0 0;
+}
+
+div.message {
+	padding:5px;
+	border-bottom:1px solid #ccc;
+	line-height:160%
+} 
+
+table#msg_write {
+	width:100%;
+	border-collapse:collapse
+}
+
+table#msg_write tbody th,
+table#msg_write tbody td {
+	padding:5px
+}
+
+table#msg_write tbody th {
+	text-align:right
+}
+
+.subject_label {
+	background-color:#624aea;
+	padding:2px;
+	font-size:7pt;
+	font-weight:normal;
+	color:#fff;
+	cursor:pointer
+}
+.subject_label:hover {
+	background-color:#6f5af7;
+}
+.subject_label a {
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+}
+
+/*
+IE9만 작동
+크롬 + 파이어폭스 다 잘동작함
+*/
+.tk {
+	background-color:#D14836;
+	color:#fff;
+	text-shadow:0 1px rgba(0,0,0.1);
+	text-transform:uppercase;
+	
+	border: 1px solid #B0281A;
+	border-radius: 5px;
+	-moz-border-radius: 5px; /* 파이어폭스 */
+	-webkit-border-radius: 5px; /* 크롬 & 사파리 */
+	
+	outline:0;
+	padding: 0 8px;
+	
+	background-color: #C53727;
+	background-image: -webkit-linear-gradient(top,#dd4b39,#c53727);
+	background-image: -moz-linear-gradient(top,#dd4b39,#c53727);
+	background-image: -ms-linear-gradient(top,#dd4b39,#c53727);
+	background-image: -o-linear-gradient(top,#dd4b39,#c53727);
+	background-image: linear-gradient(top,#dd4b39,#c53727);
+}
+
+.search_box {
+	padding:3px 5px;
+}
+
+.search_btn {
+	padding:3px 5px;
+}
+
+.search_btn_cancel {
+	padding:3px 5px;
+}

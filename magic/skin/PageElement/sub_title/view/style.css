@@ -1,0 +1,37 @@
+/*******************************
+	서브타이틀	
+********************************************/
+.sub_title {
+	position:relative;
+	height:28px;
+	padding-bottom:4px;
+	font-family:맑은 고딕;
+	border-bottom:2px solid #614aea
+}
+.sub_title h2 {
+	float:left;
+	padding:0 10px 0 9px;
+	margin:0;
+	font-size:22px;
+	color:#464259;
+	line-height:100%;
+	background:url('./img/bullet_title.gif') left 5px no-repeat
+}
+.sub_title .sub {
+	font-size:1.4em;
+	font-weight:bold;
+	color:#0053eb
+}
+.sub_title .option {
+	float:left
+}
+.sub_title .etc {
+	font-family:gulim;
+	margin-top:10px;
+	color:#999;
+	float:right
+}
+
+.sub_title .etc a {
+	color:#999
+}

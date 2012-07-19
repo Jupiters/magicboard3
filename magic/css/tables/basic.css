@@ -1,0 +1,64 @@
+/*
+ * 테이블 관련 스타일
+ */
+.basic_table {
+	width:100%;
+	text-align:center;
+	border-collapse:collapse;
+	text-align:left;
+	border-top:1px solid #C8CCD7;
+	table-layout:fixed
+}
+.basic_table thead {
+	background:url("./images/bg_tab_btn.gif")
+}
+.basic_table thead th {
+	height:25px;
+	font-size:13px;
+	font-family:"맑은 고딕";
+	font-weight:bold;
+	color:#333366;
+	border-bottom:1px solid;
+	border-color:#999faf #eceef4
+}
+.basic_table tbody td,
+.basic_table tbody th {
+	height:16px;
+	border-bottom:1px solid;
+	border-color:#c8ccd7 #e6e8f0;
+	padding:7px 5px 4px 5px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	word-break:break-all
+}
+.basic_table tbody th {
+	text-align:right;
+	background:#f8f9fa
+}
+.basic_table thead th {
+	text-align:center
+}
+.basic_table thead th.left,
+.basic_table tbody th.left {
+	text-align:left
+}
+.basic_table thead th.center,
+.basic_table tbody th.center {
+	text-align:center
+}
+.basic_table tbody.hover tr:hover {
+	background-color:#fffff5
+}
+.basic_table .notice td {
+	padding-left:15px;
+	background-color:#eee
+}
+.basic_table .notice td a {
+	margin-left:10px
+}
+.basic_table tbody td.no_contents {
+	text-align:center;
+	padding:50px 0
+}
+

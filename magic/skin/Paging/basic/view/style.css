@@ -1,0 +1,4 @@
+.paging { text-align:center; margin-bottom:10px; }
+.paging a { color:#868686; margin-right:5px; }
+.paging a.number { font-family:Tahoma; border:1px solid #ccc; padding:6px 4px 6px 8px; }
+.paging a.hover { border:1px solid #e5eeff; background-color:#eee; color:#000; font-weight:bold; }

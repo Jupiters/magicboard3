@@ -1,0 +1,41 @@
+/*******************************
+  위젯 기본
+********************************************/
+html { overflow-y:scroll; } /* 스크롤은 항상 보이게 함 */
+
+/*******************************
+  상단 위젯 선택부분
+********************************************/
+#widget_header { height:50px; background:no-repeat left top url(img/header_bg.gif); }
+#widget_header select { float:left; margin:15px 0 0 191px; }
+
+/*******************************
+  하단 위젯 설정부분
+********************************************/
+#widget_contents { padding:20px; }
+
+/*******************************
+  위젯 설정 테이블 디자인
+********************************************/
+.table_widget { border-collapse:collapse; width:100%; }
+.table_widget th, .table_widget td { border: 1px solid #9caac1; padding:7px 20px 6px 20px; }
+.table_widget th { color:#1f1f1f; text-align:left; padding-left:26px; width:103px; background:no-repeat 11px center #f3f3f3 url(img/th_bullet.gif); }
+.table_widget td div.double-line { margin-bottom:5px; }
+.table_widget select { border:1px solid #7f9db9; }
+.table_widget input.txt { padding:2px 5px 2px 5px; border-top:1px solid #7f9db9; border-left:1px solid #7f9db9; border-right:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1; }
+.table_widget label { cursor:pointer; }
+.table_widget td.select-2column select { width:175px;  }
+
+/*******************************
+  위젯설정 하단버튼
+********************************************/
+#widget_buttons { text-align:center; padding-top:36px;}
+#widget_buttons img { cursor:pointer; vertical-align:top; }
+
+/*******************************
+  위젯수정 삭제버튼 (디자인모드)
+********************************************/
+.widget { position:relative; }
+.widget_active { border:1px solid blue; }
+.widget div.widget_btn { display:none; position:absolute; left:100px; top:20px; }
+

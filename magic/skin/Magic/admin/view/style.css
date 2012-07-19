@@ -1,0 +1,20 @@
+/*******************************
+	메뉴 목록
+********************************************/
+.menu_group { border:1px solid #6a9ddd; padding:12px 20px; margin-bottom:2px; }
+.menu_group h3 { background:no-repeat left center url(img/admin_menu_bullet.gif); padding-left:21px; }
+.menu_group h3 a { color:#3a74c4; }
+.menu_group .menu_tree { margin-left:21px; }
+
+/*******************************
+	하단버튼들
+********************************************/
+#add_menu { margin:10px 0; }
+#menu_buttons { text-align:center; margin-bottom:20px; }
+
+/*******************************
+	미리보기 창
+********************************************/
+iframe#preview { border:1px solid #000; border-top:4px solid #000; }
+
+

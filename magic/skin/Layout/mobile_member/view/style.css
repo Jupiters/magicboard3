@@ -1,0 +1,221 @@
+/*******************************
+	레이아웃
+********************************************/
+body {
+	text-align:center;
+	background:url('img/bg1.gif')
+}
+/* 컨테이너 - 상단을 제외한 메뉴와 본문 내용이 들어가는 곳 */
+#container {
+	text-align:left;
+	margin:0 auto
+}
+#container h1 {
+	margin:20px
+}
+
+/* 카피라이트 - 최하단 주소 등이 들어가는 곳 */
+#footer {
+	margin:0 auto;
+	padding:8px 0 10px 0;
+	border-top:2px solid #533cd8;
+	text-align:center
+}
+#footer img { vertical-align:middle }
+#footer address { font-style:normal }
+
+/* 너비 지정 */
+#container { width:800px }
+#footer { width:800px }
+
+/*******************************
+	서브타이틀	
+********************************************/
+.sub_title {
+	background-color:#614aea;
+	height:33px;
+	border-top:2px solid #422dbb
+}
+.sub_title h2 {
+	color:#fff;
+	font-family:"맑은 고딕";
+	padding:7px 0px 0px 19px;
+	margin:0;
+	font-size:13px
+}
+
+/*******************************
+	로그인 페이지
+********************************************/
+#login {
+	border:1px solid #d6d0f5;
+	height:400px;
+	background:#fff;
+	padding:50px
+}
+#login .banner {
+	float:right
+}
+#login .form {
+	float:left;
+	width:345px;
+	border-top:2px solid #614aea
+}
+#login .form .box {
+	padding:80px 60px 0px 60px;
+	background-color:#f9f9f9;
+	height:217px;
+	border:1px solid #e3e3e3;
+	border-top:none
+}
+
+#login .form .box .id,
+#login .form .box .pw {
+	float:left;
+	width:155px;
+	height:20px;
+	margin-bottom:5px;
+	border:1px solid #bebebe
+}
+#login .form .box .id {
+	margin-bottom:5px
+}
+
+#login .form .box .links {
+	clear:both;
+	border-top:1px solid #e8e8e8;
+	padding-top:10px;
+	color:#d4d4d4;
+	text-align:center
+}
+#login .form .box .links a {
+	color:#666
+}
+
+#login .ment {
+	clear:both;
+	color:#666;
+	padding:30px 20px;
+}
+
+#login .ment p {
+	margin-bottom:5px
+}
+
+#login .ment strong {
+	color:#4b4b4b
+}
+
+#login .save_id {
+	clear:both;
+	margin-bottom:10px;
+}
+
+#login .save_id input,
+#login .save_id label {
+	margin-right:3px;
+	float:left
+}
+#login .save_id label {
+	letter-spacing:-1px;
+	margin-top:1px
+}
+
+/*******************************
+	회원가입 약관 동의 페이지
+********************************************/
+#agree {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+
+#agree .ment p {
+	margin-bottom:5px
+}
+
+#agree h2 {
+	font-size:13px;
+	padding:20px 0 5px 5px;
+}
+
+#agree textarea {
+	width:100%;
+	margin-bottom:10px
+}
+
+/*******************************
+	회원가입 페이지
+********************************************/
+#regist {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+
+#regist .basic_table {
+	margin-bottom:20px
+}
+
+/*******************************
+	비밀번호 찾기 페이지
+********************************************/
+#find_pw {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+#find_pw p {
+	margin-bottom:10px;
+}
+
+/*******************************
+	회원 페이지
+********************************************/
+#member_view {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+
+#member_view .buttonset {
+	margin-top:20px
+}
+
+/*******************************
+	비밀번호 확인 페이지
+********************************************/
+#check_password {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+
+/*******************************
+	회원정보수정 페이지
+********************************************/
+#member_modify {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+
+/*******************************
+	회원 비밀번호수정 페이지
+********************************************/
+#modify_password {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+
+/*******************************
+	회원 탈퇴 페이지
+********************************************/
+#member_unregist {
+	border:1px solid #d6d0f5;
+	background:#fff;
+	padding:50px
+}
+
+

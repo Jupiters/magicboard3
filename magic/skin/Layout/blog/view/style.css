@@ -1,0 +1,22 @@
+/*******************************
+  서브 페이지 레이아웃
+********************************************/
+@import url(../../index/view/style.css);
+
+div.no_contents { padding:50px 0px; text-align:center; border:1px solid #ccc; line-height:1.6; margin-bottom:10px; }
+
+/*******************************
+	상단
+********************************************/
+#header { height:210px; width:960px; margin:0 auto; background:no-repeat center bottom url(img/visual.jpg); margin-bottom:18px; }
+
+/*******************************
+	컨테이너 - 본문 내용이 들어가는 곳
+********************************************/
+#container #content { margin-left:30px; margin-right:30px; min-height:500px; }
+#container #content #breadcrumb { line-height:1.2; position:relative; border-bottom:1px solid #d9d9d9; margin-bottom:19px; color:#777; }
+#container #content #breadcrumb h1 { font-size:11pt; background:no-repeat left 4px url(img/breadcrumb_bullet.gif); padding:0 0 8px 21px;  }
+#container #content #breadcrumb ul { position:absolute; right:0px; top:5px; background:no-repeat left center url(img/breadcrumb_bullet2.gif); padding-left:13px; }
+#container #content #breadcrumb ul li { float:left; }
+#container #content #breadcrumb ul li.bold { font-weight:bold; }
+#container #content #breadcrumb ul li a { color:#777; }

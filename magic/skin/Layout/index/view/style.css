@@ -1,0 +1,138 @@
+/*******************************
+  인덱스 페이지 레이아웃
+	기본설정
+********************************************/
+html * { margin:0px; padding:0px; }
+body { font-family:"Gulim"; font-size:12px; text-align:center; }
+img { border:0; }
+ul { list-style:none; }
+form * { vertical-align:middle; }
+a { text-decoration:none; }
+
+select,
+textarea { border:1px solid #7f9db9; }
+input.txt { padding:2px 5px 2px 5px; border-top:1px solid #7f9db9; border-left:1px solid #7f9db9; border-right:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1; }
+label { cursor:pointer; }
+
+.center { text-align:center; }
+.right { text-align:right; }
+.left { text-align:left; }
+
+.adjust_button_line { vertical-align:bottom; }
+
+/*******************************
+	상단
+********************************************/
+#header { height:330px; width:960px; margin:0 auto; background:no-repeat center bottom url(img/sub_main.jpg); margin-bottom:18px; }
+#header_index { height:491px; width:960px; margin:0 auto; background:no-repeat center bottom url(img/index_main.jpg); margin-bottom:42px; }
+
+/*******************************
+	Global Navigation Bar - 최상단 버튼들
+********************************************/
+#gnb { padding:15px 30px 0 0; height:21px; }
+#gnb ul.links { float:right; }
+#gnb ul.links li { float:left; margin-left:7px; padding-left:9px; background:no-repeat left center url(img/menu_gnb_bullet.gif); }
+#gnb ul.links li a { color:#777676; }
+#gnb #magic_btn { float:left; margin-left:30px; }
+#gnb #magic_btn a { font-size:8pt; color:#777676; }
+
+/*******************************
+	메뉴
+********************************************/
+#menu { clear:both; position:relative; height:64px; padding-top:31px; background:repeat-x left 31px url(img/menu_bg.gif); }
+#menu .list { margin-left:259px; }
+#menu .list li { position:relative; float:left; margin-top:14px; width:137px; text-align:center; font-weight:bold; background:no-repeat left center url(img/menu_separator.gif); }
+#menu .list li.first { background:none; }
+#menu .list li a { color:#ffffff; }
+#menu .list li.active a,
+#menu .list li a:hover { color:#f7e375; }
+
+#menu .list li div.submenu { position:absolute; left:0px; top:18px; width:0px; height:40px; overflow:hidden; white-space:nowrap; }
+#menu .list li ul { margin:0; }
+#menu .list li ul li { position:static; float:left; background:none; margin-top:none; width:auto; margin-right:15px; }
+#menu .list li ul li a { color:#595959 !important; }
+#menu .list li ul li a.active,
+#menu .list li ul li a:hover { color:#f7e375 !important;  }
+
+/*******************************
+	로고 및 전체검색
+********************************************/
+#logo { position:absolute; left:30px; top:0; padding:9px; background:no-repeat left top url('img/logo_bg.gif'); width:128px; height:86px; }
+#logo a { }
+
+#menu div.search { position:absolute; right:30px; top:0; }
+#menu div.search input.txt { width:116px; height:15px; padding:2px; background-color:#f6f6f6; border:1px solid #7f9db9; }
+
+/*******************************
+	컨테이너 - 본문 내용이 들어가는 곳
+********************************************/
+#container { position:relative; width:960px; margin:0 auto; text-align:left; }
+#container #content { margin-left:230px; margin-right:30px; min-height:500px; }
+#container #content #breadcrumb { line-height:1.2; position:relative; border-bottom:1px solid #d9d9d9; margin-bottom:19px; color:#777; }
+#container #content #breadcrumb h1 { font-size:11pt; background:no-repeat left 4px url(img/breadcrumb_bullet.gif); padding:0 0 8px 21px;  }
+#container #content #breadcrumb ul { position:absolute; right:0px; top:5px; background:no-repeat left center url(img/breadcrumb_bullet2.gif); padding-left:13px; }
+#container #content #breadcrumb ul li { float:left; }
+#container #content #breadcrumb ul li.bold { font-weight:bold; }
+#container #content #breadcrumb ul li a { color:#777; }
+
+/*******************************
+	사이드 서브메뉴부분
+********************************************/
+#container #side { position:absolute; left:30px; top:0; width:181px; }
+#container #side .title { position:relative; height:47px; background:no-repeat left top url(img/side_title_bg.gif); margin-bottom:10px; }
+#container #side .title h3 { position:absolute; left:40px; top:16px; color:#fff; }
+#container #side ul { margin-bottom:80px; }
+#container #side li { background:no-repeat 12px center url(img/side_bullet_off.gif); padding:10px 0 9px 35px; border-bottom:1px solid #d9d9d9; }
+#container #side li a { color:#666; }
+#container #side li.active, #container #side li:hover { background:no-repeat 12px center url(img/side_bullet_on.gif);  }
+#container #side li.active a,
+#container #side li:hover a { font-weight:bold; }
+#container #side .banner { margin-bottom:20px; }
+
+/*******************************
+	컨테이너 - 좌측
+********************************************/
+#container .index_left_section { float:left; width:408px; height:360px; margin-left:62px; }
+#container .index_left_section .latest { height:240px; }
+
+/*******************************
+	컨테이너 - 우측
+********************************************/
+#container .index_right_section { float:right; width:421px; height:360px; margin-right:50px; }
+#container .index_right_section .latest { height:251px; }
+
+/*******************************
+	컨테이너 - 탭형 최신글
+********************************************/
+.latest #tab { height:28px; background:repeat-x left bottom url(img/latest_tab_bg.gif); margin-bottom:19px; }
+.latest #tab li { float:left; margin-right:-1px; width:94px; text-align:center; color:#333; background-color:#f7f7f7; padding:6px 0 5px 0; cursor:pointer; border:1px solid #c5c5c5; border-bottom:none; }
+.latest #tab li.active { background-color:#ffffff; padding:6px 0 6px 0; font-weight:bold; border:2px solid #9db0d1; border-bottom:none; }
+
+.latest ul.list li { clear:left; color:#777; line-height:1.7; background:no-repeat 3px center url(img/latest_tab_bullet.gif); padding-left:12px;  overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.latest ul.list li a { color:#777; }
+.latest ul.list li span.datetime { float:right; }
+.latest ul.list li.first { background:none; padding-left:0px; height:90px; white-space:normal; }
+.latest ul.list li.first img { float:left; border:1px solid #fafafa; margin-right:16px; margin-bottom:19px; }
+.latest ul.list li.first h3 { color:#515151; font-size:9pt; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.latest ul.list li.first p { height:56px; overflow:hidden; line-height:1.5; text-align:justify; }
+
+
+/*******************************
+	최하단 - 카피라이트 - 최하단 주소 등이 들어가는 곳
+********************************************/
+#footer { clear:both; width:960px; height:108px; text-align:left; margin:0 auto; padding:24px 0 0 50px; border-top:1px solid #ccc; }
+#footer #footer_logo { float:left; }
+#footer p { margin-left:180px; line-height:1.6; color:#777777; }
+#footer p.copyright { font-size:7pt; }
+
+
+/*******************************
+	컨텐츠 디자인
+********************************************/
+#container #content .page_list_content { margin-bottom: 20px; line-height:1.6; color:#3f3f3f; position:relative; }
+#container #content .page_list_content .page_buttons { position:absolute; right:-60px; top:0; }
+#container #content .page_list_content .move { position:absolute; left:0px; top:0px; display:none; }
+#container #content .page_list_content h1 { }
+#container #content .page_list_content h2 { color:#5c75b0; font-family:맑은 고딕; margin-bottom:10px; }
+
+

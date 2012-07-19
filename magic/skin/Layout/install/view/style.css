@@ -1,0 +1,62 @@
+/*******************************
+	레이아웃
+********************************************/
+html * { margin:0px; padding:0px; }
+body { font-family:"Gulim"; font-size:12px; background-color:#e1e6ea; }
+img { border:0; }
+ul { list-style:none; }
+form * { vertical-align:middle; }
+a { text-decoration:none; }
+
+.center { text-align:center; }
+.right { text-align:right; }
+.left { text-align:left; }
+
+.adjust_button_line { vertical-align:bottom; }
+
+body {
+	text-align:center;
+	padding-top:20px;
+	background:url('img/bg1.gif')
+}
+
+#top {
+	width:860px;
+	text-align:left;
+	margin:0 auto;
+	padding:0
+}
+
+p.warn {
+	color:#ff0084;
+}
+
+/* 로고 부분 */
+#top h1 {
+	padding:20px 0 20px 3px
+}
+
+#tabs {
+	width:860px;
+	background:#fff;
+	text-align:left;
+	margin:0 auto;
+	line-height:1.6
+}
+
+#tabs #license textarea {
+	width:800px;
+	height:400px;
+	line-height:1.6;
+}
+
+#footer {
+	margin:0 auto;
+	padding:8px 0 10px 0;
+	text-align:center
+}
+
+#footer address { font-style:normal }
+
+
+

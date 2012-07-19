@@ -1,0 +1,13 @@
+/*******************************
+  팝업 페이지 레이아웃
+	기본설정
+********************************************/
+html * { margin:0px; padding:0px }
+body { font-family:"Gulim"; font-size:12px; background-color:#fff; }
+img { border:0 }
+ul { list-style:none }
+form * { vertical-align:middle }
+
+.center { text-align:center }
+.right { text-align:right }
+.left { text-align:left }

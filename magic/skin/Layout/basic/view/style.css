@@ -1,0 +1,6 @@
+/*******************************
+  서브 페이지 레이아웃
+********************************************/
+@import url(../../index/view/style.css);
+
+div.no_contents { padding:50px 0px; text-align:center; border:1px solid #ccc; line-height:1.6; margin-bottom:10px; }

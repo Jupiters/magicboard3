@@ -1,0 +1,174 @@
+/*******************************
+	회원페이지 레이아웃
+********************************************/
+html * { margin:0px; padding:0px; }
+body { font-family:"Gulim"; font-size:12px; text-align:center; }
+img { border:0; }
+ul { list-style:none; }
+form * { vertical-align:middle; }
+a { text-decoration:none; }
+
+select,
+textarea { border:1px solid #7f9db9; }
+input.txt { padding:2px 5px 2px 5px; border-top:1px solid #7f9db9; border-left:1px solid #7f9db9; border-right:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1; }
+label { cursor:pointer; }
+
+.center { text-align:center; }
+.right { text-align:right; }
+.left { text-align:left; }
+
+.adjust_button_line { vertical-align:bottom; }
+
+
+
+/*******************************
+	 로고
+********************************************/
+#logo { text-align:left; width:800px; margin:0 auto; }
+
+/*******************************
+	 컨테이너 내용이 들어가는 곳
+********************************************/
+#container { text-align:left; width:800px; margin:0 auto }
+
+/*******************************
+	 카피라이트
+********************************************/
+#footer { margin:0 auto; width:800px; color:#666; padding:8px 0 10px 0; border-top:2px solid #2d4362; text-align:center; }
+#footer a { color:#666; }
+
+
+
+/*******************************
+	 회원페이지 테이블 타입1
+********************************************/
+.table_member { width:100%; border-spacing:0 3px; table-layout:fixed; margin-bottom:20px; }
+.table_member tbody th { border:1px solid #9fbddb; font-weight:normal; background-color:#eeeeee; padding:11px 0 11px 32px; color:#222; }
+.table_member tbody td { border:1px solid #9fbddb; border-left:none; padding:7px 0 7px 15px; color:#222; }
+.table_member tbody tr.info th,
+.table_member tbody th.require { background:no-repeat 17px center url(img/table_bullet.gif) #eeeeee; }
+.table_member tbody tr.info th { border:none; background-color:#fff; }
+.table_member tbody td .gab_line { margin-bottom:5px; }
+.table_member tbody td .desc { color:#d56e00; }
+.table_member tbody td.mb_picture { line-height:1.6; }
+.table_member tbody td.mb_picture img { float:left; margin:0 13px 12px 0; border:2px solid #d1d1d1; }
+
+/*******************************
+	 회원페이지 테이블 타입2
+********************************************/
+.table_member2 { width:100%; border-collapse:collapse; table-layout:fixed; margin-bottom:20px; }
+.table_member2 tbody th { border:1px solid #ddd; font-weight:normal; background-color:#eeeeee; padding:11px 0 11px 32px; color:#222; }
+.table_member2 tbody td { border:1px solid #ddd; border-left:none; padding:7px 0 7px 15px; color:#222; }
+
+/*******************************
+	 회원페이지 테이블 타입3
+********************************************/
+.table_member3 { width:100%; border-spacing:0 3px; table-layout:fixed; margin-bottom:20px; }
+.table_member3 tbody th { border:1px solid #ddd; font-weight:normal; background-color:#eeeeee; padding:11px 0 11px 32px; color:#222; }
+.table_member3 tbody td { border:1px solid #ddd; border-left:none; padding:7px 0 7px 15px; color:#222; }
+.table_member3 tbody tr.important th { font-weight:bold; }
+.table_member3 tbody tr.important td input { border:1px solid #3e77da; }
+
+
+/*******************************
+	 상단 박스 타입1
+********************************************/
+.top_box { position:relative; border:3px solid #e1e1e1; height:61px; }
+.top_box .icon { position:absolute; left:32px; top:21px; }
+.top_box h3 { position:absolute; left:57px; top:23px; font-size:10pt; color:#3e77da; }
+#modify_password .top_box .icon { left:26px; top:18px; }
+#modify_password .top_box h3 { left:61px; top:23px; }
+#member_unregist .top_box h3 { left:65px; top:25px; }
+
+
+/*******************************
+	서브타이틀 및 서브타이틀 박스
+********************************************/
+.sub_title { background-color:#3c6cb3; height:33px; border-top:2px solid #2d4362; }
+.sub_title h2 { color:#fff; font-family:"맑은 고딕"; padding:7px 0px 0px 19px; margin:0; font-size:13px; }
+
+.sub_title_box { position:relative; height:63px; border:3px solid #9fbddb; }
+.sub_title_box h3 { position:absolute; left:67px; top:22px; color:#3e77da; }
+.sub_title_box span { position:absolute; left:159px; top:23px; color:#353535; display:block; width:512px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.sub_title_box img.icon { position:absolute; left:31px; top:21px; }
+
+
+/*******************************
+	로그인 페이지
+********************************************/
+#login { border:1px solid #d6d0f5; height:400px; background:#fff; padding:50px; }
+#login .banner { float:right; }
+#login .form { float:left; width:345px; border-top:2px solid #3c6cb3; }
+#login .form .box { padding:80px 60px 0px 60px; background-color:#f9f9f9; height:217px; border:1px solid #e3e3e3; border-top:none; }
+#login .form .box .id,
+#login .form .box .pw { float:left; width:148px; height:17px; margin-bottom:5px; }
+#login .form .box .id { margin-bottom:5px; }
+#login .form .box .links { clear:both; border-top:1px solid #e8e8e8; padding-top:10px; color:#d4d4d4; text-align:center; }
+#login .form .box .links a { color:#666 }
+#login .ment { clear:both; color:#666; padding:30px 20px;; }
+#login .ment p { margin-bottom:5px; }
+#login .ment strong { color:#4b4b4b; }
+#login .save_id { clear:both; margin-bottom:10px; }
+#login .save_id input,
+#login .save_id label { margin-right:3px; float:left; }
+#login .save_id label { letter-spacing:-1px; margin-top:1px; }
+
+
+/*******************************
+	회원가입 약관 동의 페이지
+********************************************/
+#agree { border:1px solid #d6d0f5; background:#fff; padding:50px; }
+#agree .ment p { margin-bottom:5px; }
+#agree h2 { font-size:13px; padding:20px 0 5px 5px; }
+#agree textarea { width:100%; margin-bottom:10px; }
+#agree .buttons { padding:20px; text-align:center; }
+
+/*******************************
+	회원 페이지
+********************************************/
+#member_view { border:1px solid #d6d0f5; background:#fff; padding:50px; }
+#member_view #mypage_box { border:3px solid #e1e1e1; padding:33px 30px; color:#353535; margin-bottom:40px; }
+#member_view #mypage_box .welcom { font-size:20px; font-weight:bold; font-family:Arial; }
+#member_view #mypage_box .title { font-size:30px; color:#3e77da; font-weight:bold; font-family:Arial; }
+#member_view #mypage_box .ment span { font-size:15px; font-weight:bold; }
+#member_view #mypage_box .ment span b { color:#3e77da; }
+#member_view h3 { margin-bottom:21px; font-weight:normal; font-size:9pt; }
+
+/*******************************
+	비밀번호 확인 페이지
+********************************************/
+#check_password { border:1px solid #d6d0f5; background:#fff; padding:50px; }
+
+/*******************************
+	회원가입 페이지
+********************************************/
+#regist { border:1px solid #d6d0f5; background:#fff; padding:50px; }
+
+/*******************************
+	비밀번호 찾기 페이지
+********************************************/
+#find_pw { border:3px solid #e1e1e1; width:384px; padding:47px 17px 30px 17px; text-align:center; }
+#find_pw .icon { margin-bottom:38px; }
+#find_pw p { color:#707070; margin-bottom:23px; }
+#find_pw table { border-collapse:collapse; width:100%; margin-bottom:30px; }
+#find_pw table th,
+#find_pw table td { border:1px solid #dddddd; padding-left:18px; height:30px; text-align:left; }
+#find_pw table th { width:138px; background-color:#eee; }
+#find_pw table td input { border:1px solid #3e77da; width:174px; }
+
+/*******************************
+	회원정보수정 페이지
+********************************************/
+#member_modify { border:1px solid #d6d0f5; background:#fff; padding:50px; }
+
+/*******************************
+	회원 비밀번호수정 페이지
+********************************************/
+#modify_password { border:1px solid #d6d0f5; background:#fff; padding:50px; }
+
+/*******************************
+	회원 탈퇴 페이지
+********************************************/
+#member_unregist { border:1px solid #d6d0f5; background:#fff; padding:50px; }
+
+

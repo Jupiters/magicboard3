@@ -1,0 +1,63 @@
+
+/*******************************
+  댓글상단 타이틀
+********************************************/
+#comment_title { font-weight:bold; color:#3d3d3d; background-color:#f0f0f0; padding:11px; margin-bottom:11px; }
+#comment_title span { color:#4ba4fc; }
+
+/*******************************
+	댓글 하나 디자인 #comments > ul > li
+********************************************/
+#comments li { clear:left; position:relative; overflow:hidden; border:2px solid #e1e1e1; margin-bottom:14px; }
+#comments li img.pic { position:absolute; border:2px solid #d1d1d1; left:8px; top:8px; }
+#comments li div.top { font-size:11px; color:#bebebe; padding:8px 8px 8px 66px; background-color:#f2f2f2; }
+#comments li div.top a { color:#3d3d3d; }
+#comments li div.top span.nick { color:#1f1f1f; font-weight:bold; }
+#comments li div.top span.ip { color:#ccc; }
+#comments li div.top div.buttons { float:right; }
+#comments li div.top div.buttons img { vertical-align:middle; }
+#comments li div.cmt_content { color:#1f1f1f; padding:8px 8px 8px 66px; line-height:1.6; }
+
+/*******************************
+	댓글 삭제 버튼
+********************************************/
+#comments li a.delete { }
+
+/*******************************
+	입력폼 디자인
+********************************************/
+#comments li.input { padding:0; border:none; }
+#comments li.input .cmt_form_bg { position:absolute; width:100%; height:22px; left:66px; top:0; background:no-repeat left top url(img/cmt_bg.gif); }
+#comments li.input .cmt_form { border:2px solid #e1e1e1; background-color:#f2f2f2; padding:8px; }
+#comments li.input img.pic_insert { position:static; float:left; border:2px solid #d1d1d1; margin-bottom:7px; margin-right:10px; }
+#comments li.input span.name { float:left; font-weight:bold; margin-top:28px; }
+#comments li.input .button-line { color:#d1d1d1; padding:0px 5px; height:25px; }
+#comments li.input .button-line label { color:#000; }
+#comments li.input .button-line .btn_cmt_write { float:right; }
+
+/*******************************
+	댓글에 댓글
+********************************************/
+#comments ul.children li { padding-left:56px; border:none; background:no-repeat 37px 10px url(img/reply_bg.gif); }
+#comments ul.children li img.pic { position:absolute; border:2px solid #d1d1d1; left:64px; top:8px; }
+#comments ul.children li.input .cmt_form_bg { left:122px; }
+
+/*******************************
+	댓글 입력 박스
+********************************************/
+#comments li.input textarea { clear:both; width:668px; margin-bottom:4px; padding:5px 4px; overflow:hidden; border:1px solid #e1e1e1; color:#777777; }
+#comments li ul.children li.input .cmt_form { border-right:none; }
+#comments li ul.children li textarea { width:610px; }
+
+
+/*******************************
+	댓글쓰기 권한이 없습니다. 메시지
+********************************************/
+#comments li div.auth { color:#999; }
+
+/*******************************
+	비밀글 출력 : 색상만 회색으로
+********************************************/
+#comments li p span.secret { color:#ccc }
+
+

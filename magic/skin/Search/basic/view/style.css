@@ -1,0 +1,5 @@
+
+.search div.hidden { overflow:hidden; white-space:nowrap; float:left; }
+.search input.txt { margin:2px 0 0 0px; width:110px; background-color:#f6f6f6; }
+.search .btn_search2 { cursor:pointer; }
+.search .btn_search { display:none; }
