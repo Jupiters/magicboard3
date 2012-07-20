@@ -3,5 +3,5 @@
 $pass=false;
 if(
 	$this->Config('mb','admin') ||
-	$this->Config('mb','level') >= intval(Board::Inst($this->bo_id)->bo_level_write)
+	$this->Config('mb','level') >= intval(Board::Inst()->bo_no($this->bo_no)->bo_level_write)
 ) $pass=true;

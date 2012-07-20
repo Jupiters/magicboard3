@@ -1,6 +1,6 @@
 <?php if(!defined("__MAGIC__")) exit; 
 
-$board = Board::Inst($this->bo_id);
+$board = Board::Inst()->bo_no($this->bo_no);
 
 $pass=false;
 if(
