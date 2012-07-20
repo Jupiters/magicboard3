@@ -47,7 +47,7 @@ label { cursor:pointer; }
 #menu .list li.active a,
 #menu .list li a:hover { color:#f7e375; }
 
-#menu .list li div.submenu { position:absolute; left:0px; top:18px; width:0px; height:40px; overflow:hidden; white-space:nowrap; }
+#menu .list li div.submenu { position:absolute; left:0px; top:18px; width:auto; height:0px; overflow:hidden; white-space:nowrap; }
 #menu .list li ul { margin:0; }
 #menu .list li ul li { position:static; float:left; background:none; margin-top:none; width:auto; margin-right:15px; }
 #menu .list li ul li a { color:#595959 !important; }

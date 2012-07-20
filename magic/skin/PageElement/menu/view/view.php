@@ -18,7 +18,6 @@ foreach($menu_main as $k=>$v) {
         );
       }
     }
-    $v['offset'] = 137*$i++;
     $menu_main[$k] = $v;
   } else {
     unset($menu_main[$k]);
